@@ -1,0 +1,31 @@
+{
+  "name": "snapshot",
+  "version": "1.0.0",
+  "description": "provides effortless database backup and restoration",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaasu2002/snapshot.git"
+  },
+  "keywords": [
+    "backup",
+    "restoration",
+    "database",
+    "mongodb",
+    "mysql",
+    "sqlite",
+    "postgresql"
+  ],
+  "author": "vaasu2002",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/vaasu2002/snapshot/issues"
+  },
+  "homepage": "https://github.com/vaasu2002/snapshot#readme",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
