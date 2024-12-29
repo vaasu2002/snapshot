@@ -26,6 +26,8 @@
   },
   "homepage": "https://github.com/vaasu2002/snapshot#readme",
   "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/yargs": "^17.0.33",
     "typescript": "^5.7.2"
   }
 }
