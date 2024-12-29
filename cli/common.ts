@@ -24,3 +24,25 @@ export const configFileOption =
         "localPath":   "/path/to/local/backups/", 
     }
 }
+
+export const databaseNameMap = {
+    POSTGE_SQL: 'postgres',
+    MYSQL: 'mysql',
+    MONGO_DB: 'mongodb',
+    SQL_LITE: 'sqlite',
+};
+export type TDatabaseName = typeof databaseNameMap[keyof typeof databaseNameMap];
+
+export const databaseChoices = Object.entries(databaseNameMap).map(([value, name]) => ({
+    name,
+    value,
+}));
+
+export const databasePortMap = {
+    POSTGE_SQL: 1,
+    MYSQL: 3306,
+    MONGO_DB: 27017,
+    sqlite: 2,
+};
+
+export const config = configFileOption;
