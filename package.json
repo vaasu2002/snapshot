@@ -29,5 +29,9 @@
     "@types/node": "^22.10.2",
     "@types/yargs": "^17.0.33",
     "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.2.1",
+    "chalk": "^4.1.2"
   }
 }
